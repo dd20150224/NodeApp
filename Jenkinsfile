@@ -5,7 +5,7 @@ pipeline {
 	}
   environment {
     DOCKER_HUB_CREDENTIALS_ID = 'dockerhub-jenkins-token'
-    DOCKER_REGISTRY = 'https://hub.docker.com/u/dd20150224'
+    // DOCKER_REGISTRY = 'https://hub.docker.com/u/dd20150224'
     DOCKER_HUB_REPO = 'dd20150224/nodeapp'
   }
 	stages {
